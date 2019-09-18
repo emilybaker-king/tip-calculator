@@ -1,0 +1,51 @@
+
+body {
+    background-image: linear-gradient(to right,darkcyan, slategrey);
+}
+
+#container {
+    background-color: darkgrey;
+    height: 525px;
+    width: 360px;
+    margin: 100px auto; /* margin of 100px on top and bottom and auto for left and right to center it horizontally */
+    border-radius: 20px; /* round the edges of the element */
+    box-shadow: 5px 10px 5px 10px black, -15px -10px 2px 1px chartreuse; /* box shadow properties: horizontal offest (required), vertical offset (required), blur (optional), spread (optional), color (optional) */
+}
+
+h1 {
+    background-color: black;
+    color: darkseagreen;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    font-size: 18pt;
+    text-align: center;
+    padding: 20px 10px;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: normal;
+}
+
+p {
+    padding-left: 20px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#billAmt {
+    margin-left: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px darkslategray;
+    font-size: 15px;
+}
+
+#servicePercent {
+    margin-left: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px darkslategray;
+    font-size: 15px;
+}
+
+#peopleNumber {
+    margin-left: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px darkslategray;
+    font-size: 15px;
+}
