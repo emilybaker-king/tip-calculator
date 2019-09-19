@@ -26,10 +26,20 @@
                     <input type="text" placeholder="Bill Amount" id="billAmt">
 
                     <p>How was your service?</p>
-                    <input type="text" placeholder="Service Level" id="servicePercent">
+                    <!-- Drop down menu to select service quality -->
+                    <select id="servicePercent">
+                        <option selected disabled value="0">-- Choose an Option --</option> <!-- selected make sit the first option on there and disabled makes it to where you can't select this option again after you click on something else -->
+                        <option value="0.3">30% - Outstanding</option>
+                        <option value="0.2">20% - Good</option>
+                        <option value="0.15">15% - Okay</option>
+                        <option value="0.10">10% - Bad</option>
+                        <option value="0.05">5% - Terrible</option>
+                    </select>
 
                     <p>How many people are sharing the bill?</p>
                     <input type="text" placeholder="Number of people" id="peopleNumber">
+
+                    <button type="button" id="calculateTip">Calculate!</button>
                 </form>
             </div>
         </div>

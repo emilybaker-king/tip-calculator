@@ -1,6 +1,6 @@
 
 body {
-    background-image: linear-gradient(to right,darkcyan, slategrey);
+    background-image: linear-gradient(to right,darkcyan, black);
 }
 
 #container {
@@ -29,23 +29,34 @@ p {
     font-family: 'Press Start 2P', cursive;
 }
 
-#billAmt {
+#billAmt, #servicePercent, #peopleNumber { /* All 3 of these elements listed will be styled the same way. This is helpful and saves lines of code */
     margin-left: 20px;
     border-radius: 5px;
     box-shadow: 2px 2px 2px 2px darkslategray;
-    font-size: 15px;
+    font-size: 12px;
+    font-family: 'Press Start 2P', cursive;
+    padding: 6px;
 }
 
 #servicePercent {
-    margin-left: 20px;
-    border-radius: 5px;
-    box-shadow: 2px 2px 2px 2px darkslategray;
-    font-size: 15px;
+    height: 25px;
 }
 
-#peopleNumber {
-    margin-left: 20px;
-    border-radius: 5px;
-    box-shadow: 2px 2px 2px 2px darkslategray;
+#calculateTip {
+    font-family: 'Press Start 2P', cursive;
+    display: block;
+    margin: 30px auto;
     font-size: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    color: darkseagreen;
+    background-color: black;
+    box-shadow: 2px 2px 2px 2px darkslategray;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#calculateTip:hover {
+    background-color: chartreuse;
+    color: black;
 }
